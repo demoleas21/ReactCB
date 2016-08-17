@@ -1,2 +1,1 @@
-## Summary
-Simple react powered comment box
+## Simple react powered comment box
