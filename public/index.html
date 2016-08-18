@@ -29,7 +29,8 @@
         render: function() {
           return (
               <div className="commentList">
-                Hello, world! I am a CommentList.
+                <Comment author="Pete Hunt">This is one comment</Comment>
+                <Comment author="Jordan Walke">This is *another* comment</Comment>
               </div>
           );
         }
@@ -39,6 +40,23 @@
           return (
               <div className="CommentForm">
                 Hello, world! I am a CommentForm.
+              </div>
+          );
+        }
+      });
+      var Comment = React.createClass({
+        rawMarkup: function() {
+          var md = new Remarkable();
+          var rawMarkup = md.render(this.props.children.toString());
+          return { __html: rawMarkup };
+        },
+        render: function() {
+          return (
+              <div className="comment">
+                <h2 className="commentAuthor">
+                  {this.props.author}
+                </h2>
+                <span dangerouslySetInnerHTML={this.rawMarkup()} />
               </div>
           );
         }
