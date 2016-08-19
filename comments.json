@@ -18,5 +18,10 @@
         "text": "I like chicken nuggets",
         "id": 1471605706044,
         "author": "Billy Bob"
+    },
+    {
+        "text": "I know React!",
+        "id": 1471607379103,
+        "author": "Andy D"
     }
 ]
