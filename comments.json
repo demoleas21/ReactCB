@@ -1,17 +1,22 @@
 [
     {
+        "text": "Hey there!",
         "id": 1388534400000,
-        "author": "Pete Hunt",
-        "text": "Hey there!"
+        "author": "Pete Hunt"
     },
     {
+        "text": "React is *great*!",
         "id": 1420070400000,
-        "author": "Paul O’Shannessy",
-        "text": "React is *great*!"
+        "author": "Paul O\u2019Shannessy"
     },
     {
+        "text": "This is the *best* comment!",
         "id": 3000000000000,
-        "author": "Andrew Demoleas",
-        "text": "This is the *best* comment!"
+        "author": "Andrew Demoleas"
+    },
+    {
+        "text": "I like chicken nuggets",
+        "id": 1471605706044,
+        "author": "Billy Bob"
     }
 ]
